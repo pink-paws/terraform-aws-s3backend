@@ -1,9 +1,3 @@
-
-provider "aws" {
-  region  = "us-north-1"
-  profile = "shandrz_4"
-}
-
 data "aws_region" "current" {}
 
 resource "random_string" "rand" {
